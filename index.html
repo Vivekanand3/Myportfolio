@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="C:\Users\Admin\Music\1709320337626.jpg">
+    <!-- Add this in your <head> section -->
+    <link href="https://cdn.jsdelivr.net/npm/unicons@3.0.6/css/line-awesome.min.css" rel="stylesheet">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style1.css">
+    
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="C:\Users\Admin\Music\assets\images\favicon.png" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">N VIVEKANAND</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                 <li class="nav_list">
+                    <a href="#education" class="nav-link">Education</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link" id="con">Contact Me</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+       <div class="nav-button">
+
+</div>
+<div class="nav-menu-btn">
+  <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+</div>
+    <script>
+        function downloadCV() {
+            const link = document.createElement('a');
+            link.href = 'https://drive.google.com/file/d/1sOPBpjolYijialo0U1-Ic_VE1SPQlDKy/view?usp=drivesdk'; // Update with your link
+            link.download = 'N Vivekanand_Resume.pdf';
+            link.click();
+        }
+    </script>
+
+      </nav>
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Welcome To My Profile </span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p> N Vivekanand Seeking an opportunity as a  Full Stack Java Developer to apply my technical knowledge, learn from experienced developers, and contribute to building impactful applications. I am motivated to grow my skill set further and excited to work in a collaborative and dynamic development environment.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Hire Me</button>
+                <button class="btn" onclick="downloadCV()">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="My_image.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am a motivated and detail-oriented Java Developer with a strong foundation in full-stack development. My skills extend across both backend and frontend technologies, enabling me to build comprehensive and dynamic web applications. I am proficient in Java, with hands-on experience in building scalable backend systems using frameworks like Spring Boot. On the frontend, I am skilled in HTML, CSS, JavaScript, and React.js, allowing me to create engaging and responsive user interfaces.
+                    </p>
+                    
+                </div>
+            </div>
+        
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                    
+                        <span>JAVA</span>
+                        <span>Python</span>
+                        
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>SQL</span>
+                        <span>Oracle</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Communication</span>
+                        <span>Team Work</span>
+                        <span>Adaptability</span>
+                        <span>Time Management</span>
+                        <span>Decision Making</span>
+                         <span>Fast Learner</span>
+                    </div>
+                </div>
+                 <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Languages</h3>
+                    </div>
+                 <div class="skills-list">
+                        <span>Telugu</span>
+                        <span>Tamil</span>
+                        <span>English</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+
+      <section class="section" id="education">
+  <div class="top-header">
+    <h1>Education</h1>
+  </div>
+  <div class="row">
+    <div class="about-info">
+      <h3>Academic Details</h3>
+      <!-- Education Table -->
+      <table class="education-table">
+        <thead>
+          <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Duration</th>
+            <th>GPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bachelor of Technology (Computer Science)</td>
+            <td>Rajiv Gandhi University of Knowledge and Technology</td>
+            <td>June 2020 - April 2024</td>
+            <td>8.3/10</td>
+          </tr>
+          <tr>
+            <td>PUC (Kadapa)</td>
+            <td>Rajiv Gandhi University of Knowledge and Technology</td>
+            <td>July 2018 – April 2020</td>
+            <td>8.32/10</td>
+          </tr>
+          <tr>
+            <td>SSC (10th)</td>
+            <td>Z.P.H.S, Kochervu</td>
+            <td>June 2017 – March 2018</td>
+            <td>9.8/10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Amazon Clone Frontend </h3>
+                <label>Developed a frontend clone of the Amazon website using HTML, CSS, and JavaScript. This project 
+mimics Amazon's layout and features, including responsive design for different screen sizes, interactive 
+product listings with images and prices, and dynamic elements like search functionality and user
+friendly navigation.</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Spot Music </h3>
+                <label>Spotify clone app developed using HTML, CSS, and JavaScript. This project replicates key 
+functionalities of the Spotify platform, including user interface design, interactive music listings, and 
+dynamic behavior. It aims to provide a seamless user experience similar to the original Spotify 
+application.</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Trip to Seven Wonders of the World </h3>
+                <label>Web-based project focused on exploring and booking trips to the Seven Wonders of the World. Users 
+can register on the site, browse through the available wonders, and book tickets for their desired trips by 
+making secure online payments. This project provides valuable information about travel destinations and 
+facilitates a seamless booking process, enhancing the overall user experience.</label>
+            </div>
+
+          <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Edu-site </h3>
+                <label>Developed a dynamic college website using HTML, CSS, and React JavaScript. The application features 
+comprehensive program listings, student and alumni testimonials, detailed campus information, and a 
+contact form that allows users to reach the administrator, with user details being sent directly to the 
+admin for follow-up.</label>
+            </div>
+          </div>
+       </section>
+       <!-- -------------- CONTACT BOX ---------------- -->
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a any idea about to meet me, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: nvivekanand3@gmail.com</p>
+                    <p><i class="uil uil-phone"></i>WhatsApp: 6374039685</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <form id="contactForm">
+                        <div class="form-inputs">
+                            <input type="text" name="user_name" class="input-field" placeholder="Name" required>
+                            <input type="email" name="user_email" class="input-field" placeholder="Email" required>
+                        </div>
+                        <div class="text-area">
+                            <textarea name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn" type="submit">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </form>
+                </div>
+             </div>
+          </div>
+       </section>
+    </main>
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>N Vivekanand</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list" id="conn">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon">
+                <a href="https://www.instagram.com/your_profile/" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-instagram"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/your_profile/" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://dribbble.com/your_profile/" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-dribbble"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/your_profile/" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+        </div>
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Vivekanand</a> - All rights reserved</p>
+        </div>
+    </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    emailjs.init("y_TYSNQmokna4BP8H");
+
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const serviceID = "service_rdo7g26";
+        const templateID = "template_bmkiwpe";
+
+        emailjs.sendForm(serviceID, templateID, this)
+            .then(
+                (response) => {
+                    alert("Message sent successfully!");
+                    this.reset();
+                },
+                (error) => {
+                    alert("Failed to send message. Please try again.");
+                    console.error("Error:", error);
+                }
+            );
+    });
+</script>
+</body>
+</html>
